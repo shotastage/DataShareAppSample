@@ -15,6 +15,7 @@
 		2504EFEB22D8533A0034A869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2504EFE922D8533A0034A869 /* LaunchScreen.storyboard */; };
 		2504EFF622D8533A0034A869 /* DataShareAppSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504EFF522D8533A0034A869 /* DataShareAppSampleTests.swift */; };
 		2504F00122D8533A0034A869 /* DataShareAppSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504F00022D8533A0034A869 /* DataShareAppSampleUITests.swift */; };
+		2504F00F22D853620034A869 /* StoredObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504F00E22D853620034A869 /* StoredObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2504EFFC22D8533A0034A869 /* DataShareAppSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataShareAppSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2504F00022D8533A0034A869 /* DataShareAppSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataShareAppSampleUITests.swift; sourceTree = "<group>"; };
 		2504F00222D8533A0034A869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2504F00E22D853620034A869 /* StoredObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2504EFE722D8533A0034A869 /* Assets.xcassets */,
 				2504EFE922D8533A0034A869 /* LaunchScreen.storyboard */,
 				2504EFEC22D8533A0034A869 /* Info.plist */,
+				2504F00E22D853620034A869 /* StoredObject.swift */,
 			);
 			path = DataShareAppSample;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2504EFE322D853390034A869 /* SecondViewController.swift in Sources */,
+				2504F00F22D853620034A869 /* StoredObject.swift in Sources */,
 				2504EFDF22D853390034A869 /* AppDelegate.swift in Sources */,
 				2504EFE122D853390034A869 /* FirstViewController.swift in Sources */,
 			);
