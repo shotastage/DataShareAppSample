@@ -14,7 +14,8 @@ class SecondViewController: UIViewController, StoreObjectDelegate {
     
     @IBOutlet weak var inputField: UITextField!
     
-    
+    // StoreObjectの共有オブジェクトをdataに代入
+    // data.共有したい変数名でデータ取得できます, data.共有したい変数名 に代入することで自動的にデータは更新されます
     let data = StoreObject.shared
     
     override func viewWillAppear(_ animated: Bool) {
