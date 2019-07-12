@@ -12,20 +12,24 @@ import UIKit
 
 final class StoreObject {
     
-    /// Shared Instance
+    /// 複数のVCから共通して参照するインスタンス
     static let shared = StoreObject()
     
+    /// このクラスのDelegateを指定
     weak var delegate : StoreObjectDelegate?
     
+    /// 各VCで共有したい変数
     var value: String = "" {
         didSet {
             self.notifyToDelegate()
         }
     }
     
-    /// Constructor
+    /// イニシャライザ
     private init() { }
     
+    
+    /// Delegateに値が変更された時にdidUpdatedValue()を実行するように通知
     private func notifyToDelegate() {
         self.delegate?.didUpdatedValue()
     }
