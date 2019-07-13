@@ -1,0 +1,2 @@
+# DataShareAppSample
+複数VCでデーター共有をライブラリを使わずに行う簡単な方法
